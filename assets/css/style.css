@@ -1,12 +1,7 @@
 :root {
     --fontcolor: black;
-    --primary: rgb(0, 238, 255);
-    --secondary: rgb(139, 139, 142);
-
-}
-
-h1 {
-    font-size: 60px;
+    --primary: green;
+    --secondary: green;
 }
 
 h2 {
@@ -20,34 +15,39 @@ input {
 
 button {
     padding: 5px 150px;
-    background-color: rgb(237, 237, 243);
+    background-color: white;
 
 }
 
 button:hover {
-    background-color: rgb(202, 202, 207);
+    background-color: white;
 }
 
-.weather-header {
+header {
     color: white;
+    size: 20px;
     text-align: center;
-    font-size: 100px;
-    text-shadow: rgb(212, 209, 209) 1px 0 10px;
-    background: rgb(162, 0, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
     margin-bottom: 10px;
     padding-top: 7px;
     padding-bottom: 7px;
 
 }
 
-body {
-    margin: 0;
-    background-color: rgb(5, 44, 70);
-    ;
+.extra {
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin: 0;
+    background-color: green;
 
-.sideSection {
+}
+
+aside {
     margin-right: 20px;
     color: white;
     padding: 20px;
@@ -60,59 +60,52 @@ body {
 }
 
 #topSide {
-    border-bottom: 3px solid whitesmoke;
+    border-bottom: 3px solid white;
 }
 
 
-
-.citySection {
+.CityDet {
     display: inline-block;
     width: 75%;
-    border: inset var(--primary) 5px;
-    font-family: cursive;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.textCont {
+.TextCont {
     text-align: center;
     color: white;
 }
 
-#city {
+#CityName {
     margin: 0;
     padding-bottom: 10px;
     font-size: 35px;
-    background: linear-gradient(110deg, blue 50%, rgb(31, 31, 192) 50%);
+    background-color: green;
 
 }
 
-.weather {
+.WeatherCards {
     float: right;
     display: inline-table;
     margin-right: 27px;
     width: 75%;
-    background-color: rgb(5, 44, 70);
-    border: inset var(--primary) 5px;
-    font-family: cursive;
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
-#forecast {
+#fiveDayFor {
     color: white;
-    text-shadow: rgb(212, 209, 209) 1px 0 10px;
     text-align: center;
     padding: 20px;
-    border: 8px solid;
-    border-image: linear-gradient(to left, #F4C430, blue) 1 0;
+
 }
 
-.cards {
-    color: whitesmoke;
+.BorderCards {
+    color: white;
     margin-top: 0px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     justify-content: space-between;
-    border: 8px solid chartreuse;
+    border: 1px solid;
     margin-left: 10px;
     width: 18%;
     float: left;
@@ -122,41 +115,7 @@ body {
 }
 
 
-#image {
-    border: solid black 5px;
-}
-
-.clearHistory {
+.ClearHistory {
     margin-left: 10px;
     float: left;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@keyframes flicker {
-
-    0%,
-    18%,
-    22%,
-    25%,
-    53%,
-    57%,
-    100% {}
-
-    20%,
-    24%,
-    55% {
-        text-shadow: none;
-    }
 }
