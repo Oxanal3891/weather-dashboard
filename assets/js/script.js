@@ -10,6 +10,30 @@ var index = $('#index');
 var citiesPrev = $('.input-group-append');
 
 
+//function to create cards upon user input
+
+function addEntry() {
+    historyCities.sort();
+    for (var i = 0; i < historyCities.length; i++) {
+        if (historyCities[i] === historyCities[i - 1]) {
+            historyCities.splice(i, 1);
+            i--;
+        }
+    }
+    createCard();
+}
+
+addEntry();
+
+function createCard() {
+    citiesPrev.children().remove();
+    for (var i = 0; i < historyCities.length; i++) {
+        var btn = document.createElement("button");
+        btn.textContent = (historyCities[i]);
+        btn.setAttribute('id', 'Relook');
+        document.getElementById('input-group-append').appendChild(btn);
+    }
+}
 
 //Fetch API on button click
 
