@@ -112,7 +112,7 @@ $searchBtn.on('click', function (event) {
 
 })
 
-$('#citiesPrev').on('click', '#Relook', function (event) {
+$citiesPrev.on('click', '#Relook', function (event) {
     event.stopPropagation();
     event.stopImmediatePropagation();
     console.log("Clicked");
@@ -191,3 +191,7 @@ $('#citiesPrev').on('click', '#Relook', function (event) {
 
 });
 
+$clearBtn.on('click', function () {
+    localStorage.clear();
+    location.reload();
+})
