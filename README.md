@@ -27,8 +27,9 @@ https://oxanal3891.github.io/weather-dashboard/
 To deploy this project run index.html file in your browser. Then right-click 'Inspect' and open the Console tab.
 
 #Screenshots
-![1](https://github.com/Oxanal3891/weather-dashboard/assets/148264525/2bf27828-ab90-4bfa-b9d3-86e9a4d507f8)
-![2](https://github.com/Oxanal3891/weather-dashboard/assets/148264525/222d4b68-5705-442b-865b-abaf3a8587a9)
+
+![1](https://github.com/Oxanal3891/weather-dashboard/assets/148264525/884c2541-c48c-4a97-88e4-d6c4019a69c7)
+![2](https://github.com/Oxanal3891/weather-dashboard/assets/148264525/def8b0c1-e82b-40c1-aa26-bc5bf1ad3500)
 
 #Tech Stack
 HTML, Javascript, CSS, JQuery
